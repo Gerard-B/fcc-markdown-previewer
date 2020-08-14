@@ -2,6 +2,7 @@
   "name": "markdown-preview",
   "version": "0.1.0",
   "private": true,
+      // added 1 line below here:=
   "homepage": "https://gerard-b.github.io/fcc-markdown-previewer/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,6 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+      // added 2 lines below here:
     "predeploy": "npm build",
     "deploy": "gh-pages -d build"
 
