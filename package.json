@@ -2,8 +2,8 @@
   "name": "markdown-preview",
   "version": "0.1.0",
   "private": true,
-      // added 1 line below here:=
-  "homepage": "https://gerard-b.github.io/fcc-markdown-previewer/",
+      // added 1 line below here:
+  "homepage": "https://gerard-b.github.io/fcc-markdown-previewer",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -20,9 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
       // added 2 lines below here:
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
