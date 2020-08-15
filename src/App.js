@@ -74,7 +74,7 @@ Somehow tables don't work unfortunately :( :
 - Even if you use dashes or asterisks.
 * And last but not least, let's not forget embedded images:
 
-![Camera](/cameraUnsplash.jpeg)`;
+![Camera](public/cameraUnsplash.jpeg)`;
 
 
 class App extends Component {
